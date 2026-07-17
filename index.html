@@ -11,7 +11,7 @@
 <meta name="theme-color" content="#FDFBF7">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,300;0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,7 +72,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 }
 .eyebrow::before{content:'';width:28px;height:1px;background:var(--gold);}
 h1,h2,h3,h4{
-  font-family:'Bodoni Moda',serif;
+  font-family:'Fraunces',serif;
   font-weight:400;
   line-height:1.06;
   letter-spacing:-0.01em;
@@ -111,7 +111,7 @@ h1,h2,h3,h4{
   display:flex; align-items:center; justify-content:center; flex-direction:column; gap:22px;
   transition:opacity .9s var(--ease), visibility .9s;
 }
-#loader .lmark{font-family:'Bodoni Moda',serif; font-style:italic; font-size:2.2rem; color:var(--ink); opacity:0; animation:lfade 1.6s var(--ease) forwards;}
+#loader .lmark{font-family:'Fraunces',serif; font-style:italic; font-size:2.2rem; color:var(--ink); opacity:0; animation:lfade 1.6s var(--ease) forwards;}
 @keyframes lfade{0%{opacity:0; letter-spacing:.3em;}100%{opacity:1; letter-spacing:0em;}}
 #loader .lbar{width:180px; height:1px; background:rgba(46,40,34,.12); position:relative; overflow:hidden;}
 #loader .lbar span{position:absolute; inset:0; background:var(--gold); transform:scaleX(0); transform-origin:left; animation:loadbar 1.7s var(--ease) forwards;}
@@ -131,9 +131,9 @@ header.scrolled{background:rgba(253,251,247,.86); backdrop-filter:blur(16px); pa
 header .wrap{display:flex; align-items:center; justify-content:space-between;}
 .brand{display:flex; align-items:center; gap:13px;}
 .brand-mark{width:38px; height:38px; border-radius:50%; background:conic-gradient(from 200deg, var(--gold-light), var(--gold), var(--rose-deep), var(--gold-light)); display:flex; align-items:center; justify-content:center;}
-.brand-mark span{width:30px; height:30px; border-radius:50%; background:var(--pearl); display:flex; align-items:center; justify-content:center; font-family:'Bodoni Moda',serif; font-style:italic; font-size:14px; color:var(--gold-deep); overflow:hidden;}
+.brand-mark span{width:30px; height:30px; border-radius:50%; background:var(--pearl); display:flex; align-items:center; justify-content:center; font-family:'Fraunces',serif; font-style:italic; font-size:14px; color:var(--gold-deep); overflow:hidden;}
 .brand-mark img{width:100%; height:100%; border-radius:50%; object-fit:cover; display:block;}
-.brand-text{font-family:'Bodoni Moda',serif; font-size:15.5px; letter-spacing:.08em; line-height:1.15;}
+.brand-text{font-family:'Fraunces',serif; font-size:15.5px; letter-spacing:.08em; line-height:1.15;}
 .brand-text small{display:block; font-family:'Manrope',sans-serif; font-weight:600; font-size:8.5px; letter-spacing:.22em; color:var(--gold-deep); text-transform:uppercase; margin-top:3px;}
 nav.links{display:flex; gap:36px; font-size:13px; font-weight:500; letter-spacing:.02em;}
 nav.links a{position:relative; padding:4px 0; opacity:.75; transition:opacity .3s;}
@@ -196,18 +196,18 @@ section{position:relative; padding:160px 0;}
 @media(max-width:900px){.about-grid{grid-template-columns:1fr; gap:56px;}}
 .portrait-frame{position:relative; aspect-ratio:4/5; border-radius:24px; overflow:hidden; background:linear-gradient(160deg, var(--sand), var(--rose) 60%, var(--gold-light) 130%);}
 .portrait-frame::before{content:''; position:absolute; inset:0; background:radial-gradient(circle at 25% 20%, rgba(255,255,255,.5), transparent 55%);}
-.portrait-frame .initials{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Bodoni Moda',serif; font-style:italic; font-size:7.5rem; color:rgba(255,255,255,.55);}
+.portrait-frame .initials{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Fraunces',serif; font-style:italic; font-size:7.5rem; color:rgba(255,255,255,.55);}
 .portrait-frame .caption{position:absolute; left:26px; bottom:26px; right:26px; display:flex; justify-content:space-between; align-items:flex-end; font-size:11px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--white);}
 .about-copy p{font-size:16.5px; line-height:1.9; color:var(--ink-soft); margin-bottom:22px; font-weight:400;}
-.about-copy p:first-of-type{font-family:'Bodoni Moda',serif; font-size:1.55rem; line-height:1.5; color:var(--ink); font-style:italic;}
+.about-copy p:first-of-type{font-family:'Fraunces',serif; font-size:1.55rem; line-height:1.5; color:var(--ink); font-style:italic;}
 .credentials{display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:46px; border-top:1px solid rgba(46,40,34,.1); padding-top:34px;}
 @media(max-width:560px){.credentials{grid-template-columns:1fr 1fr;}}
-.credentials .cred b{display:block; font-family:'Bodoni Moda',serif; font-style:italic; font-size:2rem; color:var(--gold-deep); font-weight:400;}
+.credentials .cred b{display:block; font-family:'Fraunces',serif; font-style:italic; font-size:2rem; color:var(--gold-deep); font-weight:400;}
 .credentials .cred span{font-size:11.5px; color:var(--ink-soft); line-height:1.4; display:block; margin-top:8px;}
 
 /* Transform band */
 .transform-band{padding:140px 0; text-align:center; position:relative;}
-.transform-band blockquote{font-family:'Bodoni Moda',serif; font-style:italic; font-weight:400; font-size:clamp(1.7rem,4.2vw,3rem); max-width:840px; margin:0 auto; line-height:1.42; color:var(--ink);}
+.transform-band blockquote{font-family:'Fraunces',serif; font-style:italic; font-weight:400; font-size:clamp(1.7rem,4.2vw,3rem); max-width:840px; margin:0 auto; line-height:1.42; color:var(--ink);}
 .transform-band cite{display:block; margin-top:30px; font-style:normal; font-size:12px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--gold-deep);}
 
 /* Method */
@@ -227,7 +227,7 @@ section{position:relative; padding:160px 0;}
 .results{position:relative;}
 .results-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:40px; text-align:center;}
 @media(max-width:900px){.results-grid{grid-template-columns:1fr 1fr; gap:52px 20px;}}
-.result-item .num{font-family:'Bodoni Moda',serif; font-style:italic; font-size:clamp(2.7rem,5.2vw,4.4rem); color:var(--gold-deep); font-weight:400; letter-spacing:-0.01em;}
+.result-item .num{font-family:'Fraunces',serif; font-style:italic; font-size:clamp(2.7rem,5.2vw,4.4rem); color:var(--gold-deep); font-weight:400; letter-spacing:-0.01em;}
 .result-item .lbl{margin-top:12px; font-size:12px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft);}
 
 /* Testimonials */
@@ -239,16 +239,16 @@ section{position:relative; padding:160px 0;}
 .testi-card{width:390px; flex-shrink:0; border-radius:20px; padding:40px; transition:transform .45s var(--ease), box-shadow .45s;}
 .testi-card:hover{transform:translateY(-8px);}
 .testi-stars{color:var(--gold-deep); font-size:14px; letter-spacing:3px;}
-.testi-card p{margin-top:22px; font-family:'Bodoni Moda',serif; font-style:italic; font-size:1.2rem; line-height:1.6; color:var(--ink);}
+.testi-card p{margin-top:22px; font-family:'Fraunces',serif; font-style:italic; font-size:1.2rem; line-height:1.6; color:var(--ink);}
 .testi-who{display:flex; align-items:center; gap:13px; margin-top:28px; padding-top:22px; border-top:1px solid rgba(46,40,34,.08);}
-.testi-avatar{width:40px; height:40px; border-radius:50%; background:linear-gradient(150deg,var(--gold-light),var(--rose-deep)); display:flex; align-items:center; justify-content:center; font-family:'Bodoni Moda',serif; font-style:italic; font-size:15px; color:var(--white);}
+.testi-avatar{width:40px; height:40px; border-radius:50%; background:linear-gradient(150deg,var(--gold-light),var(--rose-deep)); display:flex; align-items:center; justify-content:center; font-family:'Fraunces',serif; font-style:italic; font-size:15px; color:var(--white);}
 .testi-who b{font-size:13.5px; font-weight:600; display:block;}
 .testi-who span{font-size:11.5px; color:var(--ink-soft);}
 
 /* Before / After */
 .ba-wrap{max-width:780px; margin:74px auto 0;}
 .ba-slider{position:relative; aspect-ratio:16/10; border-radius:22px; overflow:hidden; user-select:none; box-shadow:0 40px 80px -40px rgba(46,40,34,.25);}
-.ba-layer{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Bodoni Moda',serif; font-style:italic; font-size:1.7rem; background-size:cover; background-position:center; background-repeat:no-repeat;}
+.ba-layer{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Fraunces',serif; font-style:italic; font-size:1.7rem; background-size:cover; background-position:center; background-repeat:no-repeat;}
 .ba-before{background-color:var(--sand); color:rgba(46,40,34,.4);}
 .ba-after{background-color:var(--gold-light); color:rgba(46,40,34,.55); clip-path:inset(0 0 0 50%);}
 .ba-tag{position:absolute; top:20px; font-size:10.5px; font-weight:600; letter-spacing:.18em; text-transform:uppercase; padding:9px 16px; background:rgba(255,255,255,.7); backdrop-filter:blur(8px); border-radius:100px;}
@@ -282,7 +282,7 @@ section{position:relative; padding:160px 0;}
 .plan-card.feat{background:linear-gradient(165deg, var(--gold-light), var(--pearl) 60%); box-shadow:0 40px 80px -30px rgba(173,136,72,.35);}
 .plan-tag{position:absolute; top:-14px; left:36px; background:var(--ink); color:var(--pearl); font-size:10px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; padding:7px 16px; border-radius:100px;}
 .plan-card h3{font-size:1.35rem; font-weight:400;}
-.plan-card .price{font-family:'Bodoni Moda',serif; font-style:italic; font-size:2rem; color:var(--gold-deep); margin:20px 0 6px;}
+.plan-card .price{font-family:'Fraunces',serif; font-style:italic; font-size:2rem; color:var(--gold-deep); margin:20px 0 6px;}
 .plan-card .price small{font-family:'Manrope',sans-serif; font-style:normal; font-size:12px; color:var(--ink-soft);}
 .plan-card ul{list-style:none; margin:28px 0 34px; flex:1;}
 .plan-card ul li{font-size:14px; color:var(--ink-soft); padding:11px 0; border-top:1px solid rgba(46,40,34,.08); display:flex; gap:10px;}
@@ -292,7 +292,7 @@ section{position:relative; padding:160px 0;}
 /* FAQ */
 .faq-list{max-width:780px; margin-top:64px;}
 .faq-item{border-bottom:1px solid rgba(46,40,34,.1);}
-.faq-q{display:flex; justify-content:space-between; align-items:center; padding:28px 0; font-size:1.1rem; font-family:'Bodoni Moda',serif; cursor:pointer;}
+.faq-q{display:flex; justify-content:space-between; align-items:center; padding:28px 0; font-size:1.1rem; font-family:'Fraunces',serif; cursor:pointer;}
 .faq-q .plus{width:16px; height:16px; position:relative; flex-shrink:0; margin-left:20px;}
 .faq-q .plus::before, .faq-q .plus::after{content:''; position:absolute; background:var(--gold-deep); transition:transform .35s var(--ease);}
 .faq-q .plus::before{top:50%; left:0; width:100%; height:1px; transform:translateY(-50%);}
@@ -345,7 +345,7 @@ footer{padding:76px 0 36px; border-top:1px solid rgba(46,40,34,.08); position:re
 /* Mobile nav drawer */
 .mobile-nav{position:fixed; inset:0; background:var(--pearl); z-index:99; display:flex; flex-direction:column; justify-content:center; padding:44px; transform:translateY(-100%); transition:transform .55s var(--ease); gap:28px;}
 .mobile-nav.open{transform:translateY(0);}
-.mobile-nav a{font-family:'Bodoni Moda',serif; font-size:2.1rem;}
+.mobile-nav a{font-family:'Fraunces',serif; font-size:2.1rem;}
 .mobile-nav .btn-primary{margin-top:22px; align-self:flex-start;}
 </style>
 <noscript><style>#loader{display:none !important;} .reveal{opacity:1 !important; transform:none !important; animation:none !important;} #ribbon-thread{display:none !important;} .cursor,.cursor-ring{display:none !important;} body{cursor:auto !important;}</style></noscript>
